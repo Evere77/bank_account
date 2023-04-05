@@ -32,8 +32,8 @@ class BankAccount:
         # your code here
 
 
-account1 = BankAccount(1, 100)
-account2 = BankAccount(2, 50)
+account1 = BankAccount(0.01, 100)
+account2 = BankAccount(0.02, 50)
 
 account1.deposit(10).deposit(25).deposit(5).withdraw(
     30).yield_interest().display_account_info()
